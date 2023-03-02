@@ -59,9 +59,9 @@ body {
 .input-button {
   height: 30px;
   width: 180px;
-  border: 1px solid #04d9b2;
+  border: 1px solid #02735e;
   border-radius: 4px;
-  background-color: #03a688;
+  background-color: #02735e;
   margin-top: 20px;
   color: #fff;
   font-weight: bold;
@@ -69,5 +69,5 @@ body {
 }
 
 .input-button:hover {
-  background-color: #02735e;
+  background-color: #03a688;
 }
