@@ -71,3 +71,12 @@ body {
 .input-button:hover {
   background-color: #03a688;
 }
+
+@media screen and (max-width: 780px) {
+  .image {
+    display: none;
+  }
+  .bg-section {
+    border-radius: 0px;
+  }
+}
