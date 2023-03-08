@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0px;
+  background: #d0f2ec;
+}
+
+header {
+  background-color: #04d9b2;
+}
+
+.custom-container {
+  max-width: 1280px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #04d9b2;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: 900;
+}
+
+.link-content {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  padding: 5px;
+  background-color: #02735e;
+  border: 1px solid #02735e;
+  border-radius: 4px;
+}
+
+.tabela {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tabela th,
+.tabela td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabela th {
+  background-color: #02735e;
+  color: #fff;
+}
+
+.tabela tr:hover {
+  background-color: #f5f5f5;
+}
+
+.tabela tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.bg-section {
+  display: flex;
+  background: #04d9b2;
+  width: 1000px;
+  margin: auto;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
