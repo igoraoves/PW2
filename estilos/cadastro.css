@@ -3,6 +3,7 @@
 body {
   margin: 0px;
   background: #d0f2ec;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -23,7 +24,6 @@ header {
 }
 
 .title {
-  font-family: "Roboto", sans-serif;
   color: #fff;
   font-weight: 900;
 }
@@ -36,12 +36,15 @@ header {
 .link {
   text-decoration: none;
   margin-left: 10px;
-  font-family: "Roboto", sans-serif;
   color: #fff;
   padding: 5px;
   background-color: #02735e;
-  border: 1px solid #02735e;
+  border: none;
   border-radius: 4px;
+}
+
+.link:hover {
+  background-color: #00997d;
 }
 
 .tabela {
@@ -77,6 +80,33 @@ header {
 }
 
 h3 {
-  font-family: "Roboto", sans-serif;
   text-align: center;
+}
+
+.btn-save {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: rgb(3, 168, 3);
+}
+
+.btn-delete {
+  background-color:rgba(214, 0, 0, 0.87);
+  color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: red ;
 }
