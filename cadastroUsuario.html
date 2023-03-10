@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilos/cadastro.css" />
-    <link rel="shortcut icon" href="imagens/to-do-list.png" type="image/x-icon">
     <title>Cadastro de Usuário</title>
   </head>
   <body>
@@ -14,30 +13,46 @@
         <div class="header-container">
           <p class="title">PHPCAD</p>
           <div class="link-content">
-            <a class="link" href="cadastroUsuario.html">USUÁRIOS</a>
-            <a class="link" href="cadastroAtividade.html">ATIVIDADES</a>
+            <a class="link" href="usuario.html">USUÁRIOS</a>
+            <a class="link" href="atividade.html">ATIVIDADES</a>
           </div>
         </div>
       </div>
     </header>
-    <h3>Cadastro de Usuários</h3>
-    <div class="custom-container">
-      <table class="tabela">
-        <thead>
-          <tr>
-            <th>Nome</th>
-            <th>Senha</th>
-            <th>Ação</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="cadastroAtividade.html" style="text-decoration: none; padding: 5px; font-weight: bold                          ;">Fulano de tal</a></td>
-            <td>12345</td>
-          <td style="width: 40px;"><input class= "btn-delete" type="button" value="EXCLUIR"></td>
-        </tbody>
-      </table>      
-    </div>
-
+    <section>
+      <div class="bg-cadastro">
+        <form class="form-styled" action="">
+          <input
+            style="margin-top: 70px"
+            class="input-data"
+            type="text"
+            placeholder="Nome"
+            maxlength="80"
+            required
+          />
+          <input
+            class="input-data"
+            type="text"
+            placeholder="Email"
+            maxlength="80"
+            required
+          />
+          <input
+            class="input-data"
+            type="password"
+            placeholder="Senha"
+            minlength="5"
+            maxlength="9"
+            required
+          />
+          <input
+            style="margin-left: 5px"
+            class="btn-save"
+            type="button"
+            value="SALVAR"
+          />
+        </form>
+      </div>
+    </section>
   </body>
 </html>

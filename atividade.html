@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/cadastro.css" />
+    <link
+      rel="shortcut icon"
+      href="imagens/to-do-list.png"
+      type="image/x-icon"
+    />
+    <title>Cadastro de Atividade</title>
+  </head>
+  <body>
+    <header>
+      <div class="custom-container">
+        <div class="header-container">
+          <p class="title">PHPCAD</p>
+          <div class="link-content">
+            <a class="link" href="usuario.html">USUÁRIOS</a>
+            <a class="link" href="atividade.html">ATIVIDADES</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <h3>Atividades</h3>
+    <div class="custom-container">
+      <input class="btn-save" type="button" value="CADASTRAR" />
+      <table class="tabela">
+        <thead>
+          <tr>
+            <th>Atividade</th>
+            <th>Descrição</th>
+            <th>Status</th>
+            <th>Data</th>
+            <th>Ação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a style="text-decoration: none" href="cadastroAtividade.html"
+                >Projeto 1</a
+              >
+            </td>
+            <td>Desenvolvimento de um novo sistema de site com PHP</td>
+            <td>Em andamento</td>
+            <td>05/03/2023</td>
+            <td style="width: 60px">
+              <input
+                style="margin-left: 5px"
+                class="btn-delete"
+                type="button"
+                value="EXCLUIR"
+              />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

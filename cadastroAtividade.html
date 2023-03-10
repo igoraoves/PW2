@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="estilos/cadastro.css" />
-    <link
-      rel="shortcut icon"
-      href="imagens/to-do-list.png"
-      type="image/x-icon"
-    />
-    <title>Cadastro de Atividade</title>
+    <title>Cadastro de Atividades</title>
   </head>
   <body>
     <header>
@@ -18,57 +13,47 @@
         <div class="header-container">
           <p class="title">PHPCAD</p>
           <div class="link-content">
-            <a class="link" href="cadastroUsuario.html">USUÁRIOS</a>
-            <a class="link" href="cadastroAtividade.html">ATIVIDADES</a>
+            <a class="link" href="usuario.html">USUÁRIOS</a>
+            <a class="link" href="atividade.html">ATIVIDADES</a>
           </div>
         </div>
       </div>
     </header>
-    <h3>Cadastro de Atividades</h3>
-    <div class="custom-container">
-      <table class="tabela">
-        <thead>
-          <tr>
-            <th>Atividade</th>
-            <th>Descrição</th>
-            <th>Status</th>
-            <th>Data</th>
-            <th>Ação</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Projeto 1</td>
-            <td>Desenvolvimento de um novo sistema de site com PHP</td>
-            <td>Em andamento</td>
-            <td>05/03/2023</td>
-            <td style="width: 60px">
-              <div style="display: flex">
-                <button
-                  style="
-                    background-color: #04d9b2;
-                    border: none;
-                    border-radius: 4px;
-                    cursor: pointer;
-                  "
-                >
-                  <img
-                    style="width: 15px; height: 15px"
-                    src="imagens/link-externo.png"
-                    alt=""
-                  />
-                </button>
-                <input
-                  style="margin-left: 5px"
-                  class="btn-delete"
-                  type="button"
-                  value="EXCLUIR"
-                />
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <section>
+      <div class="bg-cadastro">
+        <form class="form-styled" action="">
+          <input
+            style="margin-top: 30px"
+            class="input-data"
+            type="text"
+            placeholder="Atividade"
+            maxlength="80"
+            required
+          />
+          <textarea
+            style="height: 100px"
+            class="input-data"
+            type=""
+            placeholder="Descrição"
+            maxlength="800"
+            required
+          ></textarea>
+          <input
+            class="input-data"
+            type="text"
+            placeholder="Status"
+            maxlength="20"
+            required
+          />
+          <input class="input-data" type="date" placeholder="Data" required />
+          <input
+            style="margin-left: 5px"
+            class="btn-save"
+            type="button"
+            value="SALVAR"
+          />
+        </form>
+      </div>
+    </section>
   </body>
 </html>
